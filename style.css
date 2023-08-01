@@ -1,0 +1,166 @@
+
+*{
+    font-family: "Jost";
+    
+}
+body{
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    
+    background-color: purple;
+    color: yellow;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+h1::after{
+    position: relative;
+    left: 20vw;
+    background-color: black;
+    content: "";
+    width: 400px;
+    height: 1px;
+    display: block;
+    
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+    color: black;
+
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+
+}
+header{
+    height: 5rem;
+    background-color: orange;
+    padding-left: 0%;
+    position: fixed;
+    
+}
+nav{
+    
+    display: flex;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    margin: 0%;
+    
+
+}
+
+figure{
+    margin: 0;
+    
+    width: 20vw;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    
+    
+}
+fig{
+    padding: 0;
+}
+.titul{
+    padding-top: 8rem;
+    background-color:khaki;
+    color: black;
+    
+
+}
+.titul h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
+.titul p{
+    text-align: right;
+    font-size: 1rem;
+    padding-right: 2rem;
+    color: red;
+}
+.titul h1{
+    font-size: 5rem;
+}
+.titul a{
+    font-size: 1rem;
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    height: 100px;
+    width: 20vw;
+    border-color: black;
+    border: 3px;
+    vertical-align: middle;
+    
+    font-size: 3rem;
+    
+    
+    
+}
+
+button{
+    width: 8vw;
+    background-color: orange;
+    padding: 0;
+    height: 5rem;
+}
+button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.contacts{
+    background-color: gray;
+    display: flex;
+    
+}
+.contacts iframe{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.cont{
+    padding-left: 2rem;
+    padding-top: 3rem;
+    flex-direction: column;
+}
+section{
+    height: 30rem;
+    width: 70vw;
+    margin-left: 15vw;
+
+}
+.prices{
+    background-color: aqua;
+    height: 50rem;
+}
+.prices p{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0%;
+    
+}
+.gitlink{
+    color: white;
+}
